@@ -208,6 +208,8 @@ a {
     text-decoration: none;
 }
 
+/* Desktop */
+
 @media (min-width: 434px) {
   :root {
     font-size: 62.5%;
@@ -215,37 +217,37 @@ a {
   }
 
   body {
-    width: 1879;
+    width: 187.9rem;
     height: auto;
   }
 
   header {
     display: flex;
-    width: 1879px;
-    height: 72px;
-    padding: 12px 112px;
+    width: 187.9rem;
+    height: 7.2rem;
+    padding: 1.2rem 11.2rem;
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
   }
 
   input {
-    width: 1137px;
+    width: 113.7rem;
     flex-shrink: 0;
 
     color: #000000;
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 600;
     line-height: 100%; /* 16px */
   }
 
   #imgp {
-    width: 803px;
-    height: 405px;
+    width: 80.3rem;
+    height: 40.5rem;
     flex-shrink: 0;
-    margin-top: 30px;
+    margin-top: 3.0rem;
   }
 
   .container {
@@ -257,25 +259,25 @@ a {
     display: flex;
     flex-direction: column;
     gap: 2.2rem;
-    margin-left: 109px;
+    margin-left: 10.9rem;
   }
 
   .hero h1 {
-    width: 342px;
-    height: 38px;
+    width: 34.2rem;
+    height: 3.8rem;
     color: #121214;
     font-family: Mulish;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-style: normal;
     font-weight: 700;
     line-height: 160%; /* 38.4px */
   }
 
   .hero p {
-    width: 800px;
+    width: 80.0rem;
     color: #121214;
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: 160%; /* 25.6px */
@@ -283,21 +285,21 @@ a {
 
   main {
     flex: 1;
-    margin-left: 109px;
+    margin-left: 10.9rem;
   }
 
   section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
-    margin-top: 30px;
-    margin-left: 300px;
+    gap: 3.2rem;
+    margin-top: 3.0rem;
+    margin-right: 30.0rem;
   }
 
   footer {
     display: flex;
-    width: 1879px;
+    width: 187.9rem;
     height: 64px;
     padding: 16px;
     flex-direction: column;
